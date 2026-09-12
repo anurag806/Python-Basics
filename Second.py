@@ -20,3 +20,27 @@ i=10;
 while i <=20:
     print(i);
     i+=1;
+i=0
+while i<=20:
+    print(i)
+    i+=5;
+    #break
+i=0;
+while i<=20:
+    print(i);
+    if i==10:
+        break;
+    i+=1;
+#continue
+i=0;
+while i<=5:
+    i+=1
+    if i==3:
+        continue;
+    print(i);
+
+for i in range(10):
+    if i%2==0:
+        continue;
+    print(i);
+
