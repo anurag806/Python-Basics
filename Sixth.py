@@ -1,3 +1,4 @@
+import csv
 # file handlings
 file=open("employees.txt","w")
 file.write("anurag,pandey,5000")
@@ -16,3 +17,10 @@ file.close();
 file=open("Sam.txt","r")
 datas=file.read();
 print(datas);
+# csv data
+
+file=open("emple.csv","r");
+data=csv.DictReader(file);
+for das in data:
+    print(das);
+file.close();
