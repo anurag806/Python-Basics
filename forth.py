@@ -49,3 +49,19 @@ employees.pop(0);
 print(employees);
 employees[1].pop('salary');
 print(employees);
+#Strings
+
+name="Anurag pandey"
+print(name.upper());
+print(name.lower());
+print(name.split());
+print(name.replace("pandey","kumar"))
+a="   anurag pan  "
+print(a.strip());
+data = "Rahul,HR,45000,Lucknow"
+res=data.split(",");
+print(res[0]);
+text = "python spark python aws python"
+print(text.count("python"));
+
+
